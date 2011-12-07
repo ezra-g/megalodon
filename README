@@ -1,0 +1,17 @@
+Megalodon readme:
+
+Key file paths:
+
+- httpd vhost configuration: /etc/apache2/extra/httpd-vhosts.conf
+
+Key Commands:
+
+- Launch/restart Apache: sudo /usr/sbin/apachectl restart
+- Launch/restart other stuff with lunchy. e.g.:
+lunchy start mysql
+
+This covers anything that has a plist in ~/Library/LaunchAgents, which OSX's equivalent to /etc/init.d.
+
+Other notes:
+
+- mysql default username is root, no password
